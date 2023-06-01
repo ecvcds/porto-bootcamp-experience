@@ -1,0 +1,183 @@
+/* Write some CSS below */
+
+@media screen and (max-width:1300px) {
+    .banner p{
+        font-size: 2em;
+    }
+
+    .card-white{
+        padding: 10px;
+    }
+
+    .banner{
+        background-image: url('images/background.jpeg');
+        background-size: cover;
+        text-align: center;
+        height: 800px !important;
+     }
+
+    .rmv{
+        display: none;
+    }
+
+    button{
+        font-size: 30px;
+    }
+    iframe {
+        width: 100%;
+    }
+  }
+
+
+ 
+html {
+    height: 100%;
+}
+  
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+body {
+    font-family: Overpass;
+    color: #404042;
+    font-size: 15px;
+    height: 100%;
+    margin: 0px;
+    
+}
+
+h1, h2, h3 {
+    font-family: Chivo;
+}
+
+.banner a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: #CE2FAE;
+    transform: scale(1.2);
+}
+
+.banner{
+   background-image: url('images/background.jpeg');
+   background-size: cover;
+   text-align: center;
+   position: relative;
+}
+
+.banner p {
+    text-shadow: 2px 2px #875B31;
+    color: white;
+}
+
+.banner div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0%;
+}
+
+h1{
+    font-size: 100px;
+    text-shadow: 10px black;
+}
+
+.wrap{
+    text-align: center;
+}
+
+.plot p{
+    text-align: justify;
+    margin: 0px;
+    padding: 20px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.plot, .cards{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+    padding: 20px;
+}
+
+h2{
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+.card-white{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.full-height{
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+    color: white;
+}
+nav{
+    position: relative;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+    padding: 15px;
+    margin: 0px;
+  
+  }
+
+li {
+    float: left;
+    font-family: Chivo;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.trailer{
+    margin: 50px;
+}
